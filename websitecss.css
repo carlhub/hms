@@ -1,12 +1,28 @@
-/*CSS file*/
+/*CSS file
+ * Hotel Management System*/
 
 body
 {
-    background-color: #000000;
+    /*background-color: #000000;*/
 	
 	
 }
 
 ul{
-	background-color: #f00000;
+	/*background-color: #f00000;*/
 }
+
+/* Display HTML5 structural elements as blocks */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+/*Set the page element default styles*/
+ul li{
+	/*line-height: 0.9em;*/
+    list-style-type: none	/*get rid of bullet points*/
+}
+
+li.newgroup              {margin-top: 10px}
